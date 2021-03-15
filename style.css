@@ -1,6 +1,7 @@
 html,
 body,
-/***CELTIC CROSS LAYOUT***/
+
+/*** CELTIC CROSS LAYOUT ***/
 
 .grid-container {
   height: 100%;
@@ -17,6 +18,8 @@ body,
   grid-template-rows: 150px 150px 150px 150px;
   background-color: #fdfdff;
 }
+
+/* card slots 1-10 */
 
 .C-1 {
   grid-area: 2 / 2 / 3 / 3;
@@ -64,7 +67,7 @@ img {
   height: auto;
 }
 
-/***TURN THE CARDS***/
+/*** CARD ANIMATION ***/
 
 /* flip the pane when hovered */
 
