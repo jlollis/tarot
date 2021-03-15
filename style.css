@@ -1,4 +1,5 @@
-html, body,
+html,
+body,
 /***CELTIC CROSS LAYOUT***/
 
 .grid-container {
@@ -71,7 +72,9 @@ img {
   transform: rotateY(180deg);
 }
 
-.flip-container, .front, .back {
+.flip-container,
+.front,
+.back {
   width: 106px;
   height: 150px;
 }
@@ -86,7 +89,8 @@ img {
 
 /* hide back of pane during swap */
 
-.front, .back {
+.front,
+.back {
   backface-visibility: hidden;
   position: absolute;
   top: 0;
